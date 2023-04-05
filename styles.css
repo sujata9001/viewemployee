@@ -1,0 +1,86 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+nav{
+	width: 100%;
+	height: 75px;
+	line-height: 75px;
+	padding: 0px 100px;
+	position: fixed;
+	background-color: gray;
+}
+nav .logo p{
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+	color: white;
+	margin-right: 10%;
+	/*text-transform: uppercase;*/
+	/*letter-spacing: 1.5px;*/
+	/*cursor: pointer;*/
+
+}
+nav ul{
+	float: right;
+
+}
+nav li{
+	display: inline-block;
+	list-style: none;
+}
+nav li a{
+	font-size: 18px;
+	/*text-transform: uppercase;*/
+	padding: 0px 30px;
+	text-decoration: none;
+	color: white;
+}
+nav li a:hover{
+	color: #ff8c69;
+	transition: all 0.4s ease 0s;
+}
+/*.heading{
+	text-align: center;
+	color: black;
+	text-align: center;
+	padding-top: 20%;
+}*/
+.logout{
+	font-size: 18px;
+	background-color: red;
+	color: white;
+	border-radius: 5px;
+	width: 100px;
+	height: 35px;
+	cursor: pointer;
+	
+}
+.heading{
+	text-align: center;
+	color: black;
+	text-align: center;
+	padding-top: 8%;
+}
+.table{
+	font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 100px;
+    padding-bottom: 10%;
+
+}
+td,th{
+	border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.delete{
+	font-size: 18px;
+	background-color: red;
+	border-radius: 2px;
+	cursor: pointer;
+	width: 80px;
+	height: 30px;
+}
